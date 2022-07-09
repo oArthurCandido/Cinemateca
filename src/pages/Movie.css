@@ -32,6 +32,8 @@
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
+  
+
 }
 
 .tagline {
@@ -42,6 +44,7 @@
 
 .info {
   margin-bottom: 1.5rem;
+  padding: 0rem 0.6rem;
 }
 
 .info h3 {
@@ -55,3 +58,11 @@
   line-height: 1.4rem;
 }
 
+@media screen and (max-width: 618px) {
+  .movie-page {
+    margin: 2rem 0 1rem;
+  }
+  
+ 
+  
+}
