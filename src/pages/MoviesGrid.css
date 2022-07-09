@@ -4,7 +4,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  margin: 6rem 0 1rem;
+  margin: 7rem 0 1rem;
 }
 
 .title .query-text {
@@ -68,26 +68,28 @@
     width: 45%;
     
     
+    
   }
 }
-
-@media screen and (max-width: 618px) {
-  .movies-container div{
-    width: 100%;
-  }
-  .container .title{
-    margin: 2rem 0 1rem;
-  }
- 
+@media screen and ( max-width: 650px){
+      .container .title{
+        margin: 8.5rem 0 1rem;
+      }
+      
+      
+    }
   
-}
-
-
+@media screen and ( max-width: 618px){
+      .container .title{
+        margin: 0.5rem 0 1rem;
+      }
+      
+      
+    }
 
 @media screen and (max-width: 450px) {
   .movies-container div{
     width: 100%;
   }
- 
   
 }
