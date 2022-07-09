@@ -8,7 +8,8 @@ const Footer = () => {
 
       <a href="https://github.com/oArthurCandido" target="blank"><FiGithub /> Github</a>
       <a href="https://www.linkedin.com/in/arthurcandido" target="blank"><FiLinkedin />  Linkedin</a>
-      <p>Desenvolvido por Arthur Candido</p>
+      <p>Desenvolvido por <strong>Arthur Candido </strong><br /> Seguindo orientações de Matheus Battisti - Hora de Codar</p>
+
     </div>
   )
 }
