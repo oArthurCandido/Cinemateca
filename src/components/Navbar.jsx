@@ -18,20 +18,21 @@ const Navbar = () => {
 
 
   return (
-    <nav id="navbar">
-      <h2>
-        <Link to="/"> <BiCameraMovie /> Filmes! </Link>
-      </h2>
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Busque um filme" onChange={(e) => setSearch(e.target.value)}
-          value={search}
-        />
-        <button type="submit">
-          <BiSearchAlt2 />
-        </button>
-      </form>
-
-    </nav>
+    <header>
+      <nav id="navbar">
+        <h2>
+          <Link to="/"> <BiCameraMovie /> Filmes! </Link>
+        </h2>
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Busque um filme" onChange={(e) => setSearch(e.target.value)}
+            value={search}
+          />
+          <button type="submit">
+            <BiSearchAlt2 />
+          </button>
+        </form>
+      </nav>
+    </header>
   )
 }
 

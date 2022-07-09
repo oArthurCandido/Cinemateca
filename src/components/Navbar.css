@@ -1,9 +1,21 @@
+header{
+  width: 100%;
+  background-color: #040404;
+  position: fixed;
+  top: 0
+  
+}
+
 #navbar {
+  
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #121212;
+  
+  flex-wrap: wrap;
 }
 
 #navbar h2 a {
@@ -35,3 +47,9 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 430px) {
+  #navbar form {
+    padding-top: 1em;
+  }
+  
+}

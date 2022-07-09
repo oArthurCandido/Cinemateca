@@ -55,7 +55,7 @@ const Movie = () => {
             <h3>
               <BsHourglassSplit /> Duração
             </h3>
-            <p>{movie.runtime}</p>
+            <p>{movie.runtime} minutos ({Math.floor(movie.runtime / 60)} horas e {movie.runtime % 60} minutos)</p>
           </div>
           <div className="info description">
             <h3>

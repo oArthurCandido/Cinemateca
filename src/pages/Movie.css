@@ -4,7 +4,7 @@
   display: grid;
   flex-direction: column;
   max-width: 600px;
-  margin: 2rem auto;
+  margin: 7rem auto;
 }
 
 .movie-page svg {
@@ -20,6 +20,7 @@
 .movie-page .movie-card h2,
 .movie-page .movie-card p {
   margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 .movie-page .movie-card h2 {
