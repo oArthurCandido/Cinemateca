@@ -6,6 +6,8 @@ header{
   
 }
 
+
+
 #navbar {
   
   max-width: 1200px;
@@ -19,10 +21,15 @@ header{
 }
 
 #navbar h2 a {
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: aliceblue;
+  text-shadow: 0px 0px 12px rgba(240, 248, 255, 0.412);
 }
+
+
 
 #navbar form {
   display: flex;
@@ -30,6 +37,7 @@ header{
 }
 
 #navbar input {
+  min-width: 15rem;
   padding: 0.2rem 0.8rem;
   border-radius: 4px;
   border: none;
@@ -47,7 +55,7 @@ header{
   cursor: pointer;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 618px) {
   #navbar form {
     padding-top: 1em;
   }

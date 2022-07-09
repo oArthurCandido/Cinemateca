@@ -20,11 +20,11 @@ const Navbar = () => {
   return (
     <header>
       <nav id="navbar">
-        <h2>
-          <Link to="/"> <BiCameraMovie /> Filmes! </Link>
+        <h2 id="logo">
+          <Link to="/"> <BiCameraMovie /> Cinemateca </Link>
         </h2>
         <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Busque um filme" onChange={(e) => setSearch(e.target.value)}
+          <input type="text" placeholder="Busque algo" onChange={(e) => setSearch(e.target.value)}
             value={search}
           />
           <button type="submit">
