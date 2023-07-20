@@ -4,15 +4,24 @@
   
 }
 
-#footer p, a{
-  padding: 1rem;
-}
+
 
 #footer a{
-  font-size: 1.2rem;
   font-weight: 600;
 }
 
-#footer p{
-  font-size: 0.8rem;
+.socialIcon{
+  margin: 0 0.5rem;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2rem;
+  
 }
+#socialIcons{
+  padding: 1rem;
+}
+.refLink{
+  font-size: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+
